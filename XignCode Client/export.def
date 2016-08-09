@@ -1,0 +1,4 @@
+LIBRARY "XignCode Client"
+
+EXPORTS
+	1						= _XignCode_function_dispatch				@1		PRIVATE

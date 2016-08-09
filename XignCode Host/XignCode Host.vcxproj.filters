@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{21463798-7244-4def-bc77-9ebc3f52166c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XignCode">
+      <UniqueIdentifier>{91ded9d3-e1fb-41b8-8f57-6ab4de00e938}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{31e95667-2762-432d-8ee0-d77fbdd9c661}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource\icons">
+      <UniqueIdentifier>{6bc6e9b1-ef2b-4fa7-9420-6eb4f0a808e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="network">
+      <UniqueIdentifier>{3d85bfc6-a931-4417-ba9a-975e3a9c4d3a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="XignCode.cpp">
+      <Filter>XignCode</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="server.cpp">
+      <Filter>network</Filter>
+    </ClCompile>
+    <ClCompile Include="session.cpp">
+      <Filter>network</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="XignCode.hpp">
+      <Filter>XignCode</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.hpp">
+      <Filter>resource</Filter>
+    </ClInclude>
+    <ClInclude Include="server.hpp">
+      <Filter>network</Filter>
+    </ClInclude>
+    <ClInclude Include="session.hpp">
+      <Filter>network</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\xigncode.ico">
+      <Filter>resource\icons</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

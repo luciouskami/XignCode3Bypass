@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="XignCode">
+      <UniqueIdentifier>{1969423e-ebff-4989-8ed8-9ff974f804c4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="XignWriter.hpp">
+      <Filter>XignCode</Filter>
+    </ClInclude>
+    <ClInclude Include="XignReader.hpp">
+      <Filter>XignCode</Filter>
+    </ClInclude>
+    <ClInclude Include="XignDefs.hpp">
+      <Filter>XignCode</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="XignWriter.cpp">
+      <Filter>XignCode</Filter>
+    </ClCompile>
+    <ClCompile Include="XignReader.cpp">
+      <Filter>XignCode</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
